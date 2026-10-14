@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Resume portfolio of Jonabeth B. Lanzaderas, BSBA Financial Management student." />
+  <title>Lanzaderas, Jonabeth | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-flower flower-one">✿</div>
+  <div class="background-flower flower-two">✿</div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">JL<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+    </nav>
+    <button class="print-button" onclick="window.print()">Print / Save PDF</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> STUDENT • CREATIVE THINKER • FUTURE PROFESSIONAL</p>
+        <h1>Hi, I'm <span>Jonabeth</span><br> B. Lanzaderas.</h1>
+        <p class="hero-subtitle">BSBA Financial Management Student</p>
+        <p class="hero-intro">A quiet, creative, and curious learner who enjoys discovering new ideas and turning them into meaningful work.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#about">Get to know me <span>↗</span></a>
+          <button class="secondary-button" onclick="window.print()">Download resume <span>↓</span></button>
+        </div>
+        <div class="quick-facts">
+          <div><strong>3rd Year</strong><small>College student</small></div>
+          <div><strong>2027–2028</strong><small>Expected graduation</small></div>
+          <div><strong>Creative</strong><small>Always learning</small></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <div class="photo-placeholder" id="photoPlaceholder">
+            <div class="photo-icon">♡</div>
+            <strong>Your photo goes here</strong>
+            <span>Choose a portrait photo to personalize your portfolio.</span>
+            <label for="photoUpload" class="upload-label">Upload photo</label>
+          </div>
+          <img id="profilePhoto" class="profile-photo hidden" alt="Portrait of Jonabeth B. Lanzaderas">
+          <input type="file" id="photoUpload" accept="image/*" hidden>
+        </div>
+        <div class="floating-note note-top">✧ learning with purpose</div>
+        <div class="floating-note note-bottom"><span>♡</span> creativity in progress</div>
+        <div class="hero-sticker">J<span>.</span></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Quiet by nature,<br><span>creative by heart.</span></h2>
+      </div>
+      <div class="about-card">
+        <div class="about-mark">“</div>
+        <div>
+          <p>I am a quiet and creative individual who enjoys learning new things and exploring different ideas. Although I may be reserved, I am always willing to learn, grow, and challenge myself. I value creativity, continuous improvement, and the opportunity to develop my skills and knowledge. I believe that every experience is a chance to learn something new and become a better version of myself.</p>
+          <div class="about-tags"><span>Curious learner</span><span>Creative thinker</span><span>Team player</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section two-column" id="education">
+      <div>
+        <p class="eyebrow">MY BACKGROUND</p>
+        <h2>Education</h2>
+        <div class="timeline-card">
+          <span class="timeline-dot"></span>
+          <p class="date-label">2027–2028 • EXPECTED GRADUATION</p>
+          <h3>Dr. Aurelio Mendoza Memorial Colleges</h3>
+          <p class="muted">Bachelor of Science in Business Administration</p>
+          <p class="small-text">Major in Financial Management (BSBA-FM) · Third Year</p>
+        </div>
+        <div class="timeline-card">
+          <span class="timeline-dot"></span>
+          <p class="date-label">SENIOR HIGH SCHOOL</p>
+          <h3>Dr. Aurelio Mendoza Memorial Colleges</h3>
+          <p class="muted">Senior High School Graduate</p>
+        </div>
+      </div>
+      <div class="career-card">
+        <p class="eyebrow">MY CAREER GOAL</p>
+        <h2>Creativity meets business.</h2>
+        <p>I hope to pursue a career that combines creativity, communication, and business—especially in digital marketing. I want to keep learning, contribute fresh ideas, and help businesses connect meaningfully with their audiences.</p>
+        <div class="career-pill">Interested in digital marketing ↗</div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading centered">
+        <p class="eyebrow">WHAT I BRING</p>
+        <h2>Skills & competencies</h2>
+        <p class="section-description">Skills I am building through my studies, projects, and experiences.</p>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <div class="skill-icon">✦</div><h3>Personal Skills</h3>
+          <ul><li>Communication</li><li>Problem-solving</li><li>Teamwork & collaboration</li><li>Leadership & initiative</li></ul>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">⌘</div><h3>Computer Skills</h3>
+          <ul><li>Customer Relationship Management (CRM)</li><li>Design & multimedia</li></ul>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">✧</div><h3>Technical Skills</h3>
+          <ul><li>Programming languages</li><li>Research and information gathering</li><li>Creative content development</li></ul>
+          <p class="tiny-note">Add the specific programming languages you know when you update this page.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow">LEARNING THROUGH EXPERIENCE</p>
+        <h2>Experience</h2>
+      </div>
+      <div class="experience-grid">
+        <article class="experience-card">
+          <span class="card-number">01</span>
+          <div><p class="date-label">CUSTOMER SERVICE</p><h3>Customer Service Experience</h3><p>Developed an understanding of customer needs, respectful communication, and the importance of providing helpful service.</p></div>
+        </article>
+        <article class="experience-card">
+          <span class="card-number">02</span>
+          <div><p class="date-label">SENIOR HIGH SCHOOL</p><h3>Immersion Job Experience</h3><p>Gained practical exposure to a work environment and the value of responsibility, cooperation, and learning by doing.</p></div>
+        </article>
+      </div>
+      <p class="tiny-note">You can add the organization/company name, dates, and specific duties if you want to provide more detail.</p>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED SCHOOL WORK</p>
+        <h2>Projects & academic work</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card"><span class="project-symbol">01</span><h3>Research</h3><p>Academic research that develops critical thinking, information analysis, and presentation skills.</p><span class="project-type">ACADEMIC PROJECT</span></article>
+        <article class="project-card"><span class="project-symbol">02</span><h3>Business Plan & Proposal</h3><p>Business planning focused on organizing ideas, identifying goals, and considering practical business strategies.</p><span class="project-type">BUSINESS DEVELOPMENT</span></article>
+        <article class="project-card"><span class="project-symbol">03</span><h3>Market Research</h3><p>Exploring customer needs, market information, and business opportunities to support informed decisions.</p><span class="project-type">MARKET ANALYSIS</span></article>
+      </div>
+    </section>
+
+    <section class="section achievements-section" id="achievements">
+      <div class="section-heading centered">
+        <p class="eyebrow">MILESTONES I'M PROUD OF</p>
+        <h2>Certificates & achievements</h2>
+      </div>
+      <div class="achievement-list">
+        <div class="achievement-item"><span>✿</span><div><h3>Best Research Presenter</h3><p>Recognition for research presentation</p></div><b>01</b></div>
+        <div class="achievement-item"><span>✿</span><div><h3>Academic Award</h3><p>Academic recognition</p></div><b>02</b></div>
+        <div class="achievement-item"><span>✿</span><div><h3>Best in Service Award</h3><p>Recognition for service</p></div><b>03</b></div>
+        <div class="achievement-item"><span>✿</span><div><h3>Champion — Poem Writing</h3><p>Creative writing achievement</p></div><b>04</b></div>
+        <div class="achievement-item"><span>✿</span><div><h3>Champion — Slogan Making</h3><p>Creative slogan-making achievement</p></div><b>05</b></div>
+        <div class="achievement-item"><span>✿</span><div><h3>1st Place — Poster Making</h3><p>Visual creativity and design achievement</p></div><b>06</b></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Thank you for visiting<br><span>my portfolio.</span></h2>
+        <p>I am open to learning opportunities that help me grow in business, creativity, and digital marketing.</p>
+        <a class="email-link" href="mailto:jonabethlanzaderas76@gmail.com">jonabethlanzaderas76@gmail.com ↗</a>
+        <p class="location">Ipil, Zamboanga Sibugay, Philippines</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Jonabeth B. Lanzaderas</span>
+    <span>Made with care <b>♡</b></span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
